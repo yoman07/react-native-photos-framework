@@ -3,7 +3,7 @@
 
 #import <React/RCTConvert.h>
 #import <React/RCTDefines.h>
-#import <React/RCTImageLoader.h>
+#import <React/RCTImageLoaderProtocol.h>
 #import <React/RCTLog.h>
 #import <React/RCTNetworking.h>
 #import <React/RCTUtils.h>
