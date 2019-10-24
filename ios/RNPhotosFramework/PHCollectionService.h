@@ -1,5 +1,4 @@
 #import <Foundation/Foundation.h>
-#import <React/RCTConvert.h>
 #import "RCTConvert+RNPhotosFramework.h"
 @import Photos;
 @interface PHCollectionService : NSObject

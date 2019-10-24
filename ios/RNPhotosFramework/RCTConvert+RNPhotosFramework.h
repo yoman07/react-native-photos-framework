@@ -5,6 +5,8 @@
 
 @import Photos;
 
+@class RCTConvert;
+
 typedef NS_ENUM(NSInteger, RNPFAssetCountType) {
     RNPFAssetCountTypeEstimated = 1,
     RNPFAssetCountTypeExact = 2,

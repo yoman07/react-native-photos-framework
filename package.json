@@ -2,14 +2,14 @@
   "name": "react-native-photos-framework",
   "repository": {
     "type": "git",
-    "url": "https://github.com/olofd/react-native-photos-framework.git"
+    "url": "https://github.com/yoman07/react-native-photos-framework.git"
   },
   "version": "1.0.8",
   "description": "Use Apples Photos Framework with react-native to fetch media from CameraRoll and iCloud",
-  "author": "Olof Dahlbom olof.dahlbom@me.com",
+  "author": "Olof Dahlbom olof.dahlbom@me.com updated by Roman Barzyczak ( roman.barzyczak+web@gmail.com",
   "nativePackage": true,
   "license": "MIT",
-  "homepage": "https://github.com/olofd/react-native-photos-framework",
+  "homepage": "https://github.com/yoman07/react-native-photos-framework",
   "keywords": [
     "react-native",
     "react-native-camera-roll",
@@ -35,20 +35,12 @@
     "react-native-photos-framework.podspec"
   ],
   "scripts": {
-    "postinstall": "node install.js",
     "test": "jest",
-    "test-ios": "set -o pipefail && xcodebuild test -verbose -project example/ios/Example.xcodeproj -scheme Example -destination 'id=E40727B3-41FB-4D6E-B4CB-BFA87109EB12' | xcpretty",
     "update": "git add . && git commit -m \"Updated\" && npm version patch && git push --tags && git push origin master && npm publish",
     "update-small": "git add . && git commit -m \"Updated\" && git push origin master"
   },
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-jest": "^24.9.0",
-    "babel-polyfill": "^6.26.0",
-    "babel-preset-react-native": "^4.0.1",
-    "jest": "^24.9.0",
-    "jest-react-native": "^18.0.0",
-    "prop-types": "^15.7.2"
+  "peerDependencies": {
+    "react-native": "*"
   },
   "jest": {
     "testPathIgnorePatterns": [

@@ -1,6 +1,5 @@
 #import "RNPFHelpers.h"
 #import <CoreLocation/CLLocation.h>
-#import <React/RCTConvert.h>
 #import "RCTConvert+RNPhotosFramework.h"
 
 @implementation RNPFHelpers

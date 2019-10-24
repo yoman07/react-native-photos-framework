@@ -1,4 +1,3 @@
-#import <React/RCTConvert.h>
 #import "RCTConvert+RNPhotosFramework.h"
 
 @import Photos;

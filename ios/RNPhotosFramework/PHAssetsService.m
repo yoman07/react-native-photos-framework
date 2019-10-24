@@ -1,5 +1,4 @@
 #import "PHAssetsService.h"
-#import <React/RCTConvert.h>
 #import "RCTConvert+RNPhotosFramework.h"
 #import "PHFetchOptionsService.h"
 #import "PHCache.h"
@@ -8,6 +7,7 @@
 #import "RCTConvert+RNPhotosFramework.h"
 #import <React/RCTProfile.h>
 #import "PHAssetWithCollectionIndex.h"
+#import <React/RCTConvert.h>
 
 @import Photos;
 @implementation PHAssetsService
